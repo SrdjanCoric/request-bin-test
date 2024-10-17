@@ -1,0 +1,378 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header styles */
+header.top {
+  /* display: grid;
+  grid-template-columns: 1fr auto; */
+  background-color: #1382c6;
+  color: #fff;
+  padding: 10px;
+  position: relative;
+}
+
+
+
+
+.top {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+header.logo {
+  margin-right: 20px;
+}
+
+.title-img {
+  position: absolute;
+  top: -2.5rem;
+  left: 40%;
+}
+
+header.top p {
+  margin: 5px 0;
+}
+
+.endpoint {
+  color: #001933;
+  font-weight: bold;
+}
+
+.endpoint-buttons button {
+  background-color: #3395ff;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: auto;
+  /* Push the endpoint and buttons to the right */
+
+}
+
+.endpoint-buttons button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Sean */
+
+.top {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  padding: 20px;
+  background-color: #f0f0f0;
+  width: 100%;
+  height: 16rem;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: 1rem;
+  left: 0;
+}
+
+.top-text {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  height: 100%;
+}
+
+.top-text h1 {
+  font-size: 4rem;
+  /* padding-bottom: 2rem; */
+}
+
+.endpoint-container {
+  /* align-self: flex-end; */
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.endpoint p {
+  margin: 0;
+}
+
+.endpoint-buttons button {
+  margin-left: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+/* .endpoint span {
+  font-style: italic;
+} */
+
+
+
+
+/* Main content styles */
+main {
+  padding: 20px;
+  padding-top: 0;
+}
+
+main section {
+  margin-bottom: 20px;
+}
+
+main h2 {
+  color: #007bff;
+}
+
+/* Search styles */
+label[for="search"] {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input#search {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* List styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+ul li button {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #f4f4f4;
+  border: none;
+  color: black;
+  cursor: pointer;
+  /* border-radius: 5px; */
+}
+
+ul li button:hover {
+  background-color: none;
+}
+
+/* Article styles */
+article h3 {
+  margin-top: 0;
+}
+
+article ul {
+  padding-left: 20px;
+}
+
+
+
+
+/* James  + Sean */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #b3d7ff;
+}
+
+
+
+
+.request-containers {
+  display: flex;
+  height: 100vh;
+  /* Adjust based on header height */
+  flex-direction: row;
+  width: 100%;
+}
+
+/* 
+.request-log-container {
+  background-color: #b3d7ff;
+  overflow-y: auto;
+} */
+
+.request-log {
+  flex: 1;
+  max-width: 30%;
+  /* Ensures it takes up 1/3 of the container's width */
+  padding: 20px;
+  border-top: none;
+  /* border-radius: 0.5rem; */
+
+  background-color: #f4f4f4;
+  overflow-y: auto;
+  border-radius: 6px;
+  box-shadow: 10px 5px 5px rgba(0, 12, 25, 0.227);
+}
+
+.request-container {
+  /* Ensures it takes up 2/3 of the container's width */
+  background-color: #b3d7ff;
+  flex: 2;
+  /* overflow-y: auto; */
+}
+
+.request-details {
+  background-color: #f4f4f4;
+  /* margin: 20px 15px; */
+  margin-left: 15px;
+  padding: 20px 15px;
+  border-radius: 6px;
+  min-height: calc(100% - 40px);
+  box-shadow: 10px 5px 5px rgba(0, 12, 25, 0.227);
+}
+
+.request-btn {
+  text-align: left;
+}
+
+h2,
+h3 {
+  margin-top: 0;
+}
+
+button {
+  margin: 10px;
+}
+
+input[type="text"] {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: calc(100% - 16px);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+code {
+  white-space: pre-wrap;
+  /* This preserves whitespace and wraps the text to fit within the container */
+}
+
+h5 {
+  margin: 0;
+}
+
+.request-details-grid {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  gap: 1rem;
+}
+
+.request-details-title {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.request-details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.request-details-container {
+  font-size: 0.8rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.request-details-created_at {
+  font-weight: bold;
+}
+
+.request-details-headers,
+.request-details-queries {
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+}
+
+.request-details-headers-header,
+.request-details-query {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-items: flex-start;
+  gap: 8rem;
+  margin-bottom: 0.5rem;
+  border-top: 1px solid rgba(128, 189, 255, 0.119);
+}
+
+.request-details-details {
+  display: flex;
+  gap: 2rem;
+}
+
+.request-details-body {
+  font-size: 0.8rem;
+}
+
+.pirate {
+  background-color: #1E3A8A;
+  /* Navy blue background */
+  color: #FFFFFF;
+  /* White text */
+  font-size: 16px;
+  /* Font size */
+  font-weight: bold;
+  /* Bold text */
+  padding: 10px 20px;
+  /* Padding */
+  border: 2px solid #1E3A8A;
+  /* Border matching background color */
+  border-radius: 5px;
+  /* Rounded corners */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  /* Smooth transition */
+  margin: 0;
+}
+
+.pirate:hover {
+  background-color: #3B82F6;
+  /* Lighter blue background on hover */
+  transform: scale(1.05);
+  /* Slightly enlarge the button on hover */
+}
+
+.pirate:active {
+  background-color: #1E40AF;
+  /* Darker blue background on click */
+  transform: scale(0.95);
+  /* Slightly shrink the button on click */
+}
+
+.pirate-talk {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+h2 {
+  margin: 0;
+}
+
+.log-title {
+  margin-bottom: 2rem;
+}

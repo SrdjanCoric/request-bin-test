@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+
+  <body>
+    <header class="top">
+      <img
+        class="logo"
+        width="250px"
+        src="https://i.ibb.co/82dQtQM/captn-webhook-logo.png"
+        alt=""
+      />
+      <img
+        class="title-img"
+        width="350px"
+        src="https://i.ibb.co/g9dF7Kx/cpt-hook.webp"
+        alt=""
+      />
+    </header>
+
+    <!-- On page load: send GET request to populate this list with requests from specific endpoint -->
+    <main>
+      <div class="endpoint-container">
+        <p class="endpoint">Endpoint: Click 'New' to create endpoint</p>
+        <div class="endpoint-buttons">
+          <button>Copy</button>
+          <button class="new">New</button>
+        </div>
+      </div>
+
+      <div class="request-containers">
+        <section class="request-log">
+          <h2 class="log-title">Request Log</h2>
+        </section>
+
+        <section class="request-container">
+          <div class="request-details">
+            <div class="request-details-title">
+              <h2>Request Details</h2>
+              <button class="pirate">Pirate AI</button>
+            </div>
+            <div class="request-details-header">
+              <h4>HTTP Request</h4>
+              <div class="request-details-container">
+                <!-- <span class="request-details-id"></span>
+              <span class="request-details-created_at"></span> -->
+              </div>
+            </div>
+            <div class="request-details-grid"></div>
+            <p class="pirate-talk"></p>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

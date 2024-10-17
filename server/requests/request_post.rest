@@ -1,0 +1,6 @@
+DELETE http://localhost:3000/bin/181d3e97458d4
+# Content-Type: application/json
+
+# {
+#   "content": "May 29 4:29"
+# }

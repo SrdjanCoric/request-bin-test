@@ -1,0 +1,6 @@
+Add .env file with 
+DB_USER=
+DB_NAME=
+DB_PASS=
+DUMP_FILE=
+MONGODB_URI=
