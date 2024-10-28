@@ -33,14 +33,14 @@ app.use(express.json());
 // To serve public directory for the path '/public/bins/:bin_id'
 app.use(
   "/public/bin/:bin_id",
-  express.static(path.join(__dirname, "../client/public"))
+  express.static(path.join(__dirname, "./public"))
 );
 
 app.use((req, res, next) => {
   if (req.path.startsWith("/api")) {
     next();
   } else {
-    express.static(path.join(__dirname, "../client/public"))(req, res, next);
+    express.static(path.join(__dirname, "./public"))(req, res, next);
   }
 });
 
